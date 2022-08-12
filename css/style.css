@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+h1, p{
+    font-family: 'Silkscreen';
+    color: grey;
+    text-shadow: 0 0 5px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 60px red,
+    0 0 80px red
+}
+
+button{
+    box-shadow: 0 0 20px greenyellow;
+}
