@@ -4,7 +4,6 @@ let formulario = document.querySelector("#formulario")
 formulario.addEventListener("submit" , adivinar)
 function playGame(){
     numeroAdivinar = Math.floor(Math.random() * (50 - 1 + 1)+ 1);
-    console.log(numeroAdivinar)
 }
 
 function adivinar(e){
